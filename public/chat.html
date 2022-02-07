@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with friends</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+    crossorigin="anonymous"
+  />
+
+  <body>
+    <div class="navbar">
+        <h3 class="bl bl1"><i class="fas fa-comments"></i> Room :  </h3>
+      <h3 class ="rname"></h3>
+      <button  class="navbtn l1">Leave Room</button>    
+      
+      <h3 class="bl"><i class="fas fa-users"></i> Users : </h3>
+      <h4 class="usrs" ></h4>
+    </div>
+    <div class="chat">
+
+        <div id="sidebar" class="chat__sidebar">
+            <h1 class="bl"><i class="fas fa-comments"></i> Room </h1>
+          <h3 id="room-name" ></h3>
+          <div class = "space"></div>
+          
+          
+          <h1 class="bl"><i class="fas fa-users"></i> Users</h1>
+          <h4 id="users"></h4>
+          <button id="leave-btn" class="btn l2">Leave Room</button>    
+        </div>
+
+        
+
+        <div class="chat__main">
+            <div id="messages" class="chat-messages">
+                <!-- <div class="message"><p class="text"> message will shown here</div> -->
+            </div>
+            
+            <div class="compose">
+                <form id="chat-form" action="">
+                    <button class="button" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    </button>
+                    
+                    <!-- <label class="custom-file-upload">
+                        
+                        <input class='inpfiles' type="file"/>
+                  
+                        files
+                    </label> -->
+                    <div  class="button" id="emoji"><i class="far fa-grin-alt"></i>
+                    </div>
+                    <input id = 'inp' name="message" type="text" placeholder="Type Your Message Here" required autocomplete="off">
+                    
+                    <div id="emojiWrapper"/>
+                </form>
+                <!-- <button id="send-location">Send location</button> -->
+            </div>  
+        </div>
+    </div>
+
+  
+
+
+   
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
+    integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
+    crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    
+    <script src="Client.js"></script>
+</body>
+
+</html>
