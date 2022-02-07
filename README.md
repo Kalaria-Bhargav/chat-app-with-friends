@@ -8,7 +8,7 @@
 
 <h2> 
 1. Login Page : 
-<img src="image/chat" alt="Loging Page" border="0" style = "width : 90px ; height : 90px ">
+<img src="image/" alt="Loging Page" border="0" style = "width : 90px ; height : 90px ">
 
 2. Page after Loging;
 <img src="image/chat" alt=" Page after Loging" border="0" style = "width : 90px ; height : 90px ">
