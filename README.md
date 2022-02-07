@@ -8,19 +8,24 @@
 
 <h2> 
 1. Login Page : 
-<img src="image/" alt="Loging Page" border="0" style = "width : 90px ; height : 90px ">
-
-2. Page after Loging;
-<img src="image/chat" alt=" Page after Loging" border="0" style = "width : 90px ; height : 90px ">
-
-3. Page veiw while Chatting
-<img src="image/chat" alt="Page veiw while Chatting" border="0" style = "width : 90px ; height : 90px ">
 </h2>
 
+<img src="image/login.PNG" alt="Loging Page" border="0" style = "width : 800px ; height : 400px ">
 
+<h2> 
+2. Page after Loging
+</h2>
 
+<img src="image/secondPage.PNG" alt=" Page after Loging" border="0" style = "width : 800px ; height : 400px" >
+
+<h2> 
+3. Page veiw while Chatting
+</h2>
+<img src="image/last.PNG" alt="Page veiw while Chatting" border="0" style = "width : 800px ; height : 400px ">
+
+<li>
 <a href="#features">Feature of The Project : </a>
-
+</li>
 <ul>
 
 <li>
